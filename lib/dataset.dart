@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:weatherapp/homePage.dart';
 
 class Weather {
   final int? max;

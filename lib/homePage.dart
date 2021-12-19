@@ -58,32 +58,8 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
     getData();
-    // getAddressBasedOnLocation();
   }
 
-  //
-  // getAddressBasedOnLocation() async{
-  //   final geoposition = await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
-  //
-  //   final coordinates = Coordinates(geoposition.latitude, geoposition.longitude);
-  //
-  //   print("*********************************************************************************************");
-  //   print("latitude: ${geoposition.latitude.toString()}, Longitude: ${geoposition.longitude.toString()}");
-  //   print("*********************************************************************************************");
-  //
-  //   var address = await Geocoder.local.findAddressesFromCoordinates(Coordinates(geoposition.latitude, geoposition.longitude));
-  //   setState(() {
-  //     address1 = address.first.featureName.toString();
-  //     address2 = address.first.addressLine.toString();
-  //   });
-  // }
-  //
-  // void UpdateText(){
-  //   setState(() {
-  //     locationText = "$address1, $address2";
-  //   });
-  // }
-  //
 
   @override
   Widget build(BuildContext context) {
